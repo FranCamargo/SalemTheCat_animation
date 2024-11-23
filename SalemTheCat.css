@@ -1,0 +1,113 @@
+html {
+    background-image: url('./The\ cat\ lady.png');
+    background-size: cover;
+    /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita que a imagem se repita */
+    height: 100%;
+    /* Altura total */
+    color: #ffffff;
+    /*cor do texto geral*/
+    font-family: 'Chalkduster', 'fantasy';
+    /*fonte texto geral*/
+}
+
+body {
+    margin: 40px;
+    /* Remove margens padrão do body */
+    display: flex;
+    /* Ativa o flexbox para o body */
+    justify-content: center;
+    /* Centraliza o conteúdo na horizontal */
+    align-items: center;
+    /* Centraliza o conteúdo na vertical */
+    height: 90vh;
+    /* Altura da viewport */
+    text-align: center;
+    /*alinha o texto geral*/
+}
+
+h4 {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.caixa {
+    background-color: rgba(24, 2, 29, 0.719);
+    /* Fundo com opacidade */
+    padding: 50px;
+    /* Espaçamento interno */
+    border-radius: 60px;
+    /* Cantos arredondados */
+    box-shadow: 0 10px 50px rgba(36, 3, 33, 0.658);
+    /* Sombra */
+    display: flex;
+    /* Ativa o flexbox para a caixa */
+    flex-direction: column;
+    align-items: center;
+    /* Centraliza os itens na horizontal */
+}
+
+.video-container {
+    width: 40%;
+    /* Define a largura do vídeo como % da tela */
+    max-width: 800px;
+    /* Limite máximo de largura do vídeo */
+    overflow: hidden;
+    /* Esconde qualquer parte do vídeo que exceda o container */
+    border-radius: 15px;
+    /* Bordas arredondadas no vídeo */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.76);
+    /* Sombra ao redor do vídeo */
+    margin: auto;
+    /* Centraliza o container do vídeo */
+}
+
+/* Estilos para o vídeo */
+.custom-video {
+    width: 100%;
+    /* O vídeo ocupa 100% da largura do container */
+    height: auto;
+    /* Mantém a proporção do vídeo */
+}
+
+/*Estilo do botão de curtida*/
+button {
+    align-items: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #7f39b8;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #b60027;
+    transform: scale(1.05);
+}
+
+.like-container {
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente */
+    gap: 8px;
+    /* Espaço entre os elementos */
+}
+
+#likeCount {
+    display: inline-block;
+    vertical-align: middle;
+    /* Alinha verticalmente */
+    margin-right: 5px;
+    /* Espaço entre os elementos */
+}
+
+.footer {
+    color: #ffffff;
+    text-decoration-style: wavy;
+    font-family: 'montagna';
+}
+

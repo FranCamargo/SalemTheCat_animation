@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cat TV</title>
+    <link rel="Stylesheet" href="./SalemTheCat.css">
+    <link rel="script" href="./JavaScript.js">
+
+</head>
+
+<body>
+    <main>
+        <div class="body">
+            <div class="caixa">
+                <h1>Salém, The Cat!</h1><br>
+                <h2>Hello human :3 </h2>
+                <h3>
+                    <p><strong>Salém, the cat</strong> is a fluffy ball of midnight-colored fur who spends most<br>
+                        of his days in the coziest spots he can find. <br>
+                        With his round belly and soft purr, he's a master at one thing: <b><span
+                                style="color: rgb(214, 179, 209);"> SLEEPING.</span></b></p><br>
+
+                    <!-- Container do vídeo -->
+                    <div class="video-container">
+                        <!-- Vídeo em looping -->
+                        <video class="custom-video" autoplay loop muted>
+                            <source src="animação teste_QUADRADO_120x120.mp4" type="video/mp4">
+                            <!-- Mensagem caso o vídeo não seja suportado -->
+                            Your browser does not support the video tag.
+                        </video>
+                        <h4> Animation made by Fran Camargo with &COPY;Krita</h4>
+                    </div>
+                </h3>
+                <div class="like-container">
+                    <button id="likebutton" onclick="curtir()"> &#128151; <p id="likeCount">Like</p> </button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer">
+                &COPY;2024 - Webpage, art and animations made by Fran Camargo.
+            </div>
+        </footer>
+    </main>
+    <script src="./JavaScript.js"></script>
+</body>
+
+</html>
